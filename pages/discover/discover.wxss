@@ -1,0 +1,15 @@
+/* pages/discover/discover.wxss */
+.navigation {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100vw;
+}
+
+.navigation .category {
+  flex: 1;
+  color: #F0A580;
+  margin: 0 20rpx 0 20rpx;
+  text-align: center;
+  font-family: 'Paciencia';
+}

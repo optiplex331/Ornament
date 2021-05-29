@@ -1,0 +1,6 @@
+<!--pages/discover/discover.wxml-->
+<view class="navigation">
+  <view class="category" wx:for="{{category}}" wx:key="index">
+    {{item}}
+  </view>
+</view>

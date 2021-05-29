@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/discover/discover",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/box/box",
+    "pages/creation/creation",
+    "pages/profile/profile"
+  ],
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "Discover"
+      },
+      {
+        "pagePath": "pages/creation/creation",
+        "text": "Creation"
+      },
+      {
+        "pagePath": "pages/box/box",
+        "text": "Box"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "Profile"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Ornament",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
